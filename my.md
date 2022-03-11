@@ -16,8 +16,7 @@
       node(Node.js)
       Java(Java)
       ZOAU(ZOAU)
-      
-      zpm --> python --> go --> node --> Java --> ZOAU
+     
     end
     
     CB --> zpm
