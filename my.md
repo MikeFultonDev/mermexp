@@ -1,13 +1,13 @@
 ```mermaid
   
-    subgraph _
+    subgraph A
       CB(Cloud Broker)
       zCEE(z/OS Connect)
       Dev(Wazi Developer)
       Sandbox(Waxi Sandbox)
     end
 
-    subgraph .   
+    subgraph B   
       zpm(z/OS Package Manager)
       python(Python)
       go(Go)
