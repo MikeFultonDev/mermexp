@@ -1,6 +1,6 @@
 ```mermaid
   
-    subgraph `
+    subgraph _
       CB(Cloud Broker)
       zCEE(z/OS Connect)
       Dev(Wazi Developer)
