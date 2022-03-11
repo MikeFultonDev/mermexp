@@ -7,7 +7,7 @@
       Sandbox(Waxi Sandbox)
     end
     
-    subgraph;
+    subgraph
       zpm(z/OS Package Manager)
       python(Python)
       go(Go)
