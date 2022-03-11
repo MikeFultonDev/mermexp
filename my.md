@@ -7,8 +7,9 @@
       Sandbox(Waxi Sandbox)
     end
 
+  graph LR;
     subgraph B
-      subgraph LR;
+      
       zpm(z/OS Package Manager)
       python(Python)
       go(Go)
