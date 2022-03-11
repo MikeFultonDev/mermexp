@@ -1,13 +1,13 @@
 ```mermaid
   graph TD;
-    subgraph .
+    subgraph Operators
       CB(Cloud Broker)
       zCEE(z/OS Connect)
       Dev(Wazi Developer)
       Sandbox(Waxi Sandbox)
     end
 
-    subgraph _   
+    subgraph Suboperators   
       zpm(z/OS Package Manager)
       python(Python)
       go(Go)
