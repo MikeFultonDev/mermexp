@@ -15,9 +15,9 @@
       Java(Java)
       ZOAU(Z Open Automation Utilities)
       
-      zpm -> python -> go -> node -> Java -> ZOAU
+      zpm --> python --> go --> node --> Java --> ZOAU
     end
     
-    CB -> zpm
+    CB --> zpm
      
 ```
