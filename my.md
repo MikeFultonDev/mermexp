@@ -1,5 +1,12 @@
 ```mermaid
   graph TD;
+      { rank=same;
+        0 [style = invis];
+        01 [style = invis];
+        02 [style=invis];
+        0 -> 01 -> 02;
+    }
+    
     subgraph Operators
       CB(Cloud Broker)
       zCEE(z/OS Connect)
