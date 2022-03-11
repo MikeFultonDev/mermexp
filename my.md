@@ -1,5 +1,5 @@
 ```mermaid
-  
+  graph TD;
     subgraph A
       CB(Cloud Broker)
       zCEE(z/OS Connect)
