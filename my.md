@@ -7,7 +7,6 @@
       Sandbox(Waxi Sandbox)
     end
     
-  graph TD;
     subgraph B
       zpm(z/OS Package Manager)
       python(Python)
@@ -18,8 +17,6 @@
       
       zpm --> python --> go --> node --> Java --> ZOAU
     end
-    
-    graph TD;
     
     CB --> zpm
      
