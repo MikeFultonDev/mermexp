@@ -8,12 +8,12 @@
     end
 
     subgraph Suboperators   
-      zpm(z/OS Package Manager)
+      zpm(zpm)
       python(Python)
       go(Go)
       node(Node.js)
       Java(Java)
-      ZOAU(Z Open Automation Utilities)
+      ZOAU(ZOAU)
       
       zpm --> python --> go --> node --> Java --> ZOAU
     end
