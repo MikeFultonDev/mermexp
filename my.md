@@ -1,7 +1,6 @@
 ```mermaid
   graph TD;
     subgraph B
-      graph LR;
       CB(Cloud Broker)
       zCEE(z/OS Connect)
       Dev(Wazi Developer)
@@ -10,7 +9,6 @@
     
   graph TD;
     subgraph B
-      graph LR;
       zpm(z/OS Package Manager)
       python(Python)
       go(Go)
