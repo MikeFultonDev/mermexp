@@ -8,6 +8,7 @@
     end
 
     subgraph B
+      graph LR;
       zpm(z/OS Package Manager)
       python(Python)
       go(Go)
